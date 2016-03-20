@@ -122,7 +122,7 @@ class BingTranslation{
                     let jsonDict = try NSJSONSerialization.JSONObjectWithData(reData, options: NSJSONReadingOptions.MutableContainers)
                     token = jsonDict.valueForKey("access_token") as! String
                     let interval = jsonDict.valueForKey("expires_in") as! String
-                    self.timeLive = NSDate(timeInterval: NSTimeInterval(interval)! * 1000.0, sinceDate: NSDate())
+                    self.timeLive = NSDate(timeInterval: NSTimeInterval(interval)!, sinceDate: NSDate())
                     self.token = token
                 }
             }
