@@ -53,8 +53,8 @@ enum BingLanguage : String{
 }
 
 class BingTranslation{
-    let client_id = "InfoWorld" //应用ID
-    let client_secret = "sustcxw94wo95peng92shi1" //应用密匙
+    let client_id = "Your ID" //应用ID
+    let client_secret = "Your Secrent" //应用密匙
     
     let baseUrl = "https://datamarket.accesscontrol.windows.net/v2/OAuth2-13"
     
